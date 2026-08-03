@@ -2,6 +2,7 @@ import json
 from datetime import datetime, timedelta, timezone
 
 def generate_schedule():
+    # rotation.json 파일 읽기
     with open('rotation.json', 'r', encoding='utf-8') as f:
         rotation = json.load(f)
 
@@ -17,6 +18,7 @@ def generate_schedule():
         timestamp = int(current_time.timestamp())
         start_time_str = current_time.strftime("%Y-%m-%dT%H:%M:%S.000Z")
         
+        # rotation.json의 boss와 복수 zones(동시 출현 데이터 포함)를 그대로 매핑
         item = {
             "id": timestamp,
             "timestamp": timestamp,
@@ -28,6 +30,7 @@ def generate_schedule():
         schedule_list.append(item)
         current_time += interval
 
+    # 생성된 일정을 worldboss.json에 저장
     with open('worldboss.json', 'w', encoding='utf-8') as f:
         json.dump(schedule_list, f, ensure_ascii=False, indent=2)
 
