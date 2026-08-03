@@ -13,7 +13,7 @@ def generate_schedule():
     current_time = base_time
     interval = timedelta(hours=3, minutes=30)
     
-    for i in range(100):
+    for i in range(7):
         rot_item = rotation[i % len(rotation)]
         timestamp = int(current_time.timestamp())
         start_time_str = current_time.strftime("%Y-%m-%dT%H:%M:%S.000Z")
