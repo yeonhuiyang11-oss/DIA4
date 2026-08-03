@@ -6,20 +6,31 @@ def generate_schedule():
     with open('rotation.json', 'r', encoding='utf-8') as f:
         rotation = json.load(f)
 
-    # 오늘 첫 보스 시간인 2026-08-04 07:30:00 KST (= 2026-08-03 22:30:00 UTC)를 기준점으로 설정
+    # 기준 에폭(Anchor): 2026년 8월 4일 07:30:00 KST (= 2026-08-03 22:30:00 UTC)의 Ashava 시작점
     base_time = datetime(2026, 8, 3, 22, 30, 0, tzinfo=timezone.utc)
     
-    schedule_list = []
-    current_time = base_time
-    interval = timedelta(hours=3, minutes=30)
+    # 현재 UTC 시간
+    now_utc = datetime.now(timezone.utc)
     
-    # 하루 동안 생성되는 월드 보스 개수(약 7개)만큼 생성
+    # 기준점부터 현재까지 몇 번의 주기가 지났는지 계산하여 오늘 현재 시간에 맞는 시작 인덱스 찾기
+    interval = timedelta(hours=3, minutes=30)
+    time_diff = now_utc - base_time
+    periods_passed = int(time_diff / interval)
+    
+    # 현재 진행 중이거나 다가오는 보스 스케줄부터 시작하도록 current_time 조정
+    current_time = base_time + (periods_passed * interval)
+    start_index = periods_passed % len(rotation)
+    
+    schedule_list = []
+    
+    # 앞으로 다가올 일정 7개 생성
     for i in range(7):
-        rot_item = rotation[i % len(rotation)]
+        rot_index = (start_index + i) % len(rotation)
+        rot_item = rotation[rot_index]
+        
         timestamp = int(current_time.timestamp())
         start_time_str = current_time.strftime("%Y-%m-%dT%H:%M:%S.000Z")
         
-        # rotation.json의 boss와 zones 데이터를 그대로 매핑
         item = {
             "id": timestamp,
             "timestamp": timestamp,
@@ -35,7 +46,7 @@ def generate_schedule():
     with open('worldboss.json', 'w', encoding='utf-8') as f:
         json.dump(schedule_list, f, ensure_ascii=False, indent=2)
 
-    print("worldboss.json 생성 완료!")
+    print("worldboss.json 갱신 완료!")
 
 if __name__ == "__main__":
     generate_schedule()
