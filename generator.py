@@ -6,20 +6,24 @@ def generate_schedule():
     with open('rotation.json', 'r', encoding='utf-8') as f:
         rotation = json.load(f)
 
-    # 기준 에폭(Anchor): 2026년 8월 4일 07:30:00 KST (= 2026-08-03 22:30:00 UTC)의 Ashava 시작점
-    base_time = datetime(2026, 8, 3, 22, 30, 0, tzinfo=timezone.utc)
+    # 기준 에폭(Anchor): 2026년 8월 4일 18:00:00 KST (= 2026-08-04 09:00:00 UTC)의 Avarice 시작점
+    base_time = datetime(2026, 8, 4, 9, 0, 0, tzinfo=timezone.utc)
+    
+    # 헬타이드 화면 기준 첫 번째 보스(Avarice)가 rotation.json에서 몇 번째 인덱스인지 지정 (0부터 시작)
+    # rotation.json에서 "Avarice" (Kehjistan/Skovos)가 위치한 정확한 인덱스 번호로 설정하세요.
+    base_rotation_index = 6
     
     # 현재 UTC 시간
     now_utc = datetime.now(timezone.utc)
     
-    # 기준점부터 현재까지 몇 번의 주기가 지났는지 계산하여 오늘 현재 시간에 맞는 시작 인덱스 찾기
+    # 기준점부터 현재까지 몇 번의 주기가 지났는지 계산
     interval = timedelta(hours=3, minutes=30)
     time_diff = now_utc - base_time
     periods_passed = int(time_diff / interval)
     
     # 현재 진행 중이거나 다가오는 보스 스케줄부터 시작하도록 current_time 조정
     current_time = base_time + (periods_passed * interval)
-    start_index = periods_passed % len(rotation)
+    start_index = (base_rotation_index + periods_passed) % len(rotation)
     
     schedule_list = []
     
