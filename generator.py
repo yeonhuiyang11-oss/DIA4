@@ -31,13 +31,29 @@ def generate_schedule():
         timestamp = int(current_time.timestamp())
         start_time_str = current_time.strftime("%Y-%m-%dT%H:%M:%S.000Z")
         
+        # [핵심] zones 리스트에서 모든 보스 이름을 추출하여 겹칠 경우 합쳐주기
+        zones = rot_item.get("zones", [])
+        boss_names = []
+        for z in zones:
+            b_name = z.get("boss")
+            if b_name and b_name not in boss_names:
+                boss_names.append(b_name)
+        
+        # 보스가 2마리 이상이면 "Avarice & Azmodan" 형태로 결합, 1마리면 그대로 사용
+        if len(boss_names) > 1:
+            combined_boss = " & ".join(boss_names)
+        elif len(boss_names) == 1:
+            combined_boss = boss_names[0]
+        else:
+            combined_boss = rot_item.get("boss", "Unknown")
+        
         item = {
             "id": timestamp,
             "timestamp": timestamp,
-            "boss": rot_item["boss"],
+            "boss": combined_boss,
             "type": "world_boss",
             "startTime": start_time_str,
-            "zone": rot_item["zones"]
+            "zone": zones
         }
         schedule_list.append(item)
         current_time += interval
