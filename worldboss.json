@@ -21,23 +21,37 @@
   {
     "id": 1785846600,
     "timestamp": 1785846600,
-    "boss": "Avarice",
+    "boss": "Ashava",
     "type": "world_boss",
     "startTime": "2026-08-04T12:30:00.000Z",
     "zone": [
       {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Ashava"
       }
     ]
   },
   {
     "id": 1785859200,
     "timestamp": 1785859200,
-    "boss": "Azmodan",
+    "boss": "Ashava",
     "type": "world_boss",
     "startTime": "2026-08-04T16:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Ashava"
+      }
+    ]
+  },
+  {
+    "id": 1785871800,
+    "timestamp": 1785871800,
+    "boss": "Azmodan",
+    "type": "world_boss",
+    "startTime": "2026-08-04T19:30:00.000Z",
     "zone": [
       {
         "id": "fractured_peaks",
@@ -47,25 +61,30 @@
     ]
   },
   {
-    "id": 1785871800,
-    "timestamp": 1785871800,
-    "boss": "Wandering Death",
+    "id": 1785884400,
+    "timestamp": 1785884400,
+    "boss": "Azmodan",
     "type": "world_boss",
-    "startTime": "2026-08-04T19:30:00.000Z",
+    "startTime": "2026-08-04T23:00:00.000Z",
     "zone": [
       {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Wandering Death"
+        "id": "dry_steppes",
+        "name": "Dry Steppes",
+        "boss": "Azmodan"
+      },
+      {
+        "id": "nahantu",
+        "name": "Nahantu",
+        "boss": "Avarice"
       }
     ]
   },
   {
-    "id": 1785884400,
-    "timestamp": 1785884400,
+    "id": 1785897000,
+    "timestamp": 1785897000,
     "boss": "Wandering Death",
     "type": "world_boss",
-    "startTime": "2026-08-04T23:00:00.000Z",
+    "startTime": "2026-08-05T02:30:00.000Z",
     "zone": [
       {
         "id": "fractured_peaks",
@@ -75,35 +94,16 @@
     ]
   },
   {
-    "id": 1785897000,
-    "timestamp": 1785897000,
-    "boss": "Avarice",
-    "type": "world_boss",
-    "startTime": "2026-08-05T02:30:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
     "id": 1785909600,
     "timestamp": 1785909600,
-    "boss": "Ashava",
+    "boss": "Wandering Death",
     "type": "world_boss",
     "startTime": "2026-08-05T06:00:00.000Z",
     "zone": [
       {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Ashava"
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Wandering Death"
       }
     ]
   }
