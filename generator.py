@@ -9,8 +9,8 @@ def generate_schedule():
     # 기준 에폭(Anchor): 2026년 8월 4일 18:00:00 KST (= 2026-08-04 09:00:00 UTC)의 Avarice 시작점
     base_time = datetime(2026, 8, 4, 9, 0, 0, tzinfo=timezone.utc)
     
-    # 헬타이드 화면 기준 첫 번째 보스(Avarice)가 rotation.json에서 몇 번째 인덱스인지 지정 (0부터 시작)
-    # rotation.json에서 "Avarice" (Kehjistan/Skovos)가 위치한 정확한 인덱스 번호로 설정하세요.
+    # 헬타이드 화면 첫 시간(8/4 6:00 PM)에 띄워야 하는 정확한 보스인 Avarice의 rotation.json 상 인덱스
+    # 제공해주신 rotation.json 배열에서 Avarice가 처음 등장하는 정확한 위치는 6번째(인덱스 6)입니다.
     base_rotation_index = 6
     
     # 현재 UTC 시간
