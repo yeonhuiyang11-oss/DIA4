@@ -6,12 +6,8 @@ def generate_schedule():
     with open('rotation.json', 'r', encoding='utf-8') as f:
         rotation = json.load(f)
 
-    # 기준 에폭(Anchor): 2026년 8월 4일 18:00:00 KST (= 2026-08-04 09:00:00 UTC)의 Avarice 시작점
+    # 헬타이드 첫 기준점: 2026년 8월 4일 18:00:00 KST (= 2026-08-04 09:00:00 UTC)의 Avarice 시작점
     base_time = datetime(2026, 8, 4, 9, 0, 0, tzinfo=timezone.utc)
-    
-    # 헬타이드 화면 첫 시간(8/4 6:00 PM)에 띄워야 하는 정확한 보스인 Avarice의 rotation.json 상 인덱스
-    # 제공해주신 rotation.json 배열에서 Avarice가 처음 등장하는 정확한 위치는 6번째(인덱스 6)입니다.
-    base_rotation_index = 6
     
     # 현재 UTC 시간
     now_utc = datetime.now(timezone.utc)
@@ -21,9 +17,9 @@ def generate_schedule():
     time_diff = now_utc - base_time
     periods_passed = int(time_diff / interval)
     
-    # 현재 진행 중이거나 다가오는 보스 스케줄부터 시작하도록 current_time 조정
+    # 현재 진행 중이거나 다가오는 보스 스케줄부터 시작하도록 current_time과 시작 인덱스 조정
     current_time = base_time + (periods_passed * interval)
-    start_index = (base_rotation_index + periods_passed) % len(rotation)
+    start_index = periods_passed % len(rotation)
     
     schedule_list = []
     
