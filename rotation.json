@@ -15,12 +15,22 @@
     ]
   },
   {
-    "boss": "Avarice",
+    "boss": "Ashava",
     "zones": [
       {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Ashava"
+      }
+    ]
+  },
+  {
+    "boss": "Ashava",
+    "zones": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Ashava"
       }
     ]
   },
@@ -35,66 +45,11 @@
     ]
   },
   {
-    "boss": "Wandering Death",
-    "zones": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "boss": "Wandering Death",
-    "zones": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "boss": "Avarice",
-    "zones": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "boss": "Ashava",
-    "zones": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Ashava"
-      }
-    ]
-  },
-  {
-    "boss": "Ashava",
-    "zones": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Ashava"
-      }
-    ]
-  },
-  {
     "boss": "Azmodan",
     "zones": [
       {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
+        "id": "dry_steppes",
+        "name": "Dry Steppes",
         "boss": "Azmodan"
       },
       {
@@ -105,16 +60,6 @@
     ]
   },
   {
-    "boss": "Azmodan",
-    "zones": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Azmodan"
-      }
-    ]
-  },
-  {
     "boss": "Wandering Death",
     "zones": [
       {
@@ -131,6 +76,31 @@
         "id": "scosglen",
         "name": "Scosglen",
         "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "boss": "Avarice",
+    "zones": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "boss": "Avarice",
+    "zones": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
+        "boss": "Avarice"
       }
     ]
   }
