@@ -1,10 +1,43 @@
 [
   {
-    "id": 1785834000,
-    "timestamp": 1785834000,
+    "id": 1785922200,
+    "timestamp": 1785922200,
     "boss": "Avarice",
     "type": "world_boss",
-    "startTime": "2026-08-04T09:00:00.000Z",
+    "startTime": "2026-08-05T09:30:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1785934800,
+    "timestamp": 1785934800,
+    "boss": "Avarice",
+    "type": "world_boss",
+    "startTime": "2026-08-05T13:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1785947400,
+    "timestamp": 1785947400,
+    "boss": "Avarice",
+    "type": "world_boss",
+    "startTime": "2026-08-05T16:30:00.000Z",
     "zone": [
       {
         "id": "kehjistan",
@@ -19,11 +52,11 @@
     ]
   },
   {
-    "id": 1785846600,
-    "timestamp": 1785846600,
+    "id": 1785960000,
+    "timestamp": 1785960000,
     "boss": "Ashava",
     "type": "world_boss",
-    "startTime": "2026-08-04T12:30:00.000Z",
+    "startTime": "2026-08-05T20:00:00.000Z",
     "zone": [
       {
         "id": "scosglen",
@@ -33,11 +66,11 @@
     ]
   },
   {
-    "id": 1785859200,
-    "timestamp": 1785859200,
+    "id": 1785972600,
+    "timestamp": 1785972600,
     "boss": "Ashava",
     "type": "world_boss",
-    "startTime": "2026-08-04T16:00:00.000Z",
+    "startTime": "2026-08-05T23:30:00.000Z",
     "zone": [
       {
         "id": "kehjistan",
@@ -47,11 +80,11 @@
     ]
   },
   {
-    "id": 1785871800,
-    "timestamp": 1785871800,
+    "id": 1785985200,
+    "timestamp": 1785985200,
     "boss": "Azmodan",
     "type": "world_boss",
-    "startTime": "2026-08-04T19:30:00.000Z",
+    "startTime": "2026-08-06T03:00:00.000Z",
     "zone": [
       {
         "id": "fractured_peaks",
@@ -61,11 +94,11 @@
     ]
   },
   {
-    "id": 1785884400,
-    "timestamp": 1785884400,
+    "id": 1785997800,
+    "timestamp": 1785997800,
     "boss": "Azmodan & Avarice",
     "type": "world_boss",
-    "startTime": "2026-08-04T23:00:00.000Z",
+    "startTime": "2026-08-06T06:30:00.000Z",
     "zone": [
       {
         "id": "dry_steppes",
@@ -76,34 +109,6 @@
         "id": "nahantu",
         "name": "Nahantu",
         "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1785897000,
-    "timestamp": 1785897000,
-    "boss": "Wandering Death",
-    "type": "world_boss",
-    "startTime": "2026-08-05T02:30:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1785909600,
-    "timestamp": 1785909600,
-    "boss": "Wandering Death",
-    "type": "world_boss",
-    "startTime": "2026-08-05T06:00:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Wandering Death"
       }
     ]
   }
