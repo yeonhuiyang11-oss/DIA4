@@ -1,24 +1,5 @@
 [
   {
-    "id": 1785997800,
-    "timestamp": 1785997800,
-    "boss": "Azmodan & Avarice",
-    "type": "world_boss",
-    "startTime": "2026-08-06T06:30:00.000Z",
-    "zone": [
-      {
-        "id": "dry_steppes",
-        "name": "Dry Steppes",
-        "boss": "Azmodan"
-      },
-      {
-        "id": "nahantu",
-        "name": "Nahantu",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
     "id": 1786010400,
     "timestamp": 1786010400,
     "boss": "Wandering Death",
@@ -109,6 +90,20 @@
         "id": "scosglen",
         "name": "Scosglen",
         "boss": "Ashava"
+      }
+    ]
+  },
+  {
+    "id": 1786086000,
+    "timestamp": 1786086000,
+    "boss": "Azmodan",
+    "type": "world_boss",
+    "startTime": "2026-08-07T07:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Azmodan"
       }
     ]
   }
