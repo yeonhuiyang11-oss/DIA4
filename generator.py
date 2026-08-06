@@ -7,6 +7,11 @@ def generate_schedule():
     with open('rotation.json', 'r', encoding='utf-8') as f:
         rotation = json.load(f)
 
+    # rotation 데이터 안전 체크
+    if not rotation:
+        print("rotation.json 데이터가 없습니다.")
+        return
+
     # 헬타이드 기준점:
     # 2026년 8월 6일 19:00:00 KST
     # = 2026년 8월 6일 10:00:00 UTC
@@ -36,7 +41,7 @@ def generate_schedule():
 
     schedule_list = []
 
-    # 8개 일정 생성 (Avarice → Avarice → Ashava...)
+    # 앞으로 8개 일정 생성
     for i in range(8):
         rot_index = (start_index + i) % len(rotation)
         rot_item = rotation[rot_index]
@@ -74,6 +79,10 @@ def generate_schedule():
         schedule_list.append(item)
 
         current_time += interval
+
+    # ★ 안전장치:
+    # 항상 시간순 정렬해서 EXE가 첫 번째 미래 보스를 정확히 읽게 함
+    schedule_list.sort(key=lambda x: x["timestamp"])
 
     # worldboss.json 저장
     with open('worldboss.json', 'w', encoding='utf-8') as f:
