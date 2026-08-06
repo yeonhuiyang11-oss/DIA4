@@ -1,24 +1,5 @@
 [
   {
-    "id": 1786023000,
-    "timestamp": 1786023000,
-    "boss": "Avarice",
-    "type": "world_boss",
-    "startTime": "2026-08-06T13:30:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
     "id": 1786035600,
     "timestamp": 1786035600,
     "boss": "아샤바 & 아바리스",
@@ -40,7 +21,7 @@
   {
     "id": 1786048200,
     "timestamp": 1786048200,
-    "boss": "Ashava",
+    "boss": "아샤바",
     "type": "world_boss",
     "startTime": "2026-08-06T20:30:00.000Z",
     "zone": [
@@ -54,7 +35,7 @@
   {
     "id": 1786060800,
     "timestamp": 1786060800,
-    "boss": "Azmodan",
+    "boss": "아즈모단",
     "type": "world_boss",
     "startTime": "2026-08-07T00:00:00.000Z",
     "zone": [
@@ -68,7 +49,7 @@
   {
     "id": 1786073400,
     "timestamp": 1786073400,
-    "boss": "Azmodan & Avarice",
+    "boss": "아즈모단 & 아바리스",
     "type": "world_boss",
     "startTime": "2026-08-07T03:30:00.000Z",
     "zone": [
@@ -87,7 +68,7 @@
   {
     "id": 1786086000,
     "timestamp": 1786086000,
-    "boss": "Wandering Death",
+    "boss": "떠도는 죽음",
     "type": "world_boss",
     "startTime": "2026-08-07T07:00:00.000Z",
     "zone": [
@@ -101,7 +82,7 @@
   {
     "id": 1786098600,
     "timestamp": 1786098600,
-    "boss": "Wandering Death",
+    "boss": "떠도는 죽음",
     "type": "world_boss",
     "startTime": "2026-08-07T10:30:00.000Z",
     "zone": [
@@ -115,13 +96,32 @@
   {
     "id": 1786111200,
     "timestamp": 1786111200,
-    "boss": "Avarice",
+    "boss": "아바리스",
     "type": "world_boss",
     "startTime": "2026-08-07T14:00:00.000Z",
     "zone": [
       {
         "id": "kehjistan",
         "name": "Kehjistan",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786123800,
+    "timestamp": 1786123800,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-07T17:30:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
         "boss": "Avarice"
       }
     ]
