@@ -1,6 +1,16 @@
 import json
 from datetime import datetime, timedelta, timezone
 
+# 영문 보스 이름을 한글로 변환하는 딕셔너리
+BOSS_KR = {
+    "Ashava": "아샤바",
+    "Avarice": "아바리스",
+    "Wandering Death": "떠도는 죽음",
+    "Azmodan": "아즈모단"
+}
+
+def translate_boss(name):
+    return BOSS_KR.get(name, name)
 
 def generate_schedule():
     # rotation.json 파일 읽기
@@ -15,7 +25,6 @@ def generate_schedule():
     # 헬타이드 기준점:
     # 2026년 8월 6일 19:00:00 KST
     # = 2026년 8월 6일 10:00:00 UTC
-    # 해당 시간 월드보스: Avarice
     base_time = datetime(2026, 8, 6, 10, 0, 0, tzinfo=timezone.utc)
 
     # 현재 UTC 시간
@@ -49,23 +58,24 @@ def generate_schedule():
         timestamp = int(current_time.timestamp())
         start_time_str = current_time.strftime("%Y-%m-%dT%H:%M:%S.000Z")
 
-        # 같은 시간 여러 보스 처리
+        # 같은 시간 여러 보스 처리 및 한글 변환 적용
         zones = rot_item.get("zones", [])
-
-        boss_names = []
+        boss_names_kr = []
 
         for z in zones:
             b_name = z.get("boss")
+            if b_name:
+                b_name_kr = translate_boss(b_name)
+                if b_name_kr not in boss_names_kr:
+                    boss_names_kr.append(b_name_kr)
 
-            if b_name and b_name not in boss_names:
-                boss_names.append(b_name)
-
-        if len(boss_names) > 1:
-            combined_boss = " & ".join(boss_names)
-        elif len(boss_names) == 1:
-            combined_boss = boss_names[0]
+        if len(boss_names_kr) > 1:
+            combined_boss = " & ".join(boss_names_kr)
+        elif len(boss_names_kr) == 1:
+            combined_boss = boss_names_kr[0]
         else:
-            combined_boss = rot_item.get("boss", "Unknown")
+            fallback_name = rot_item.get("boss", "Unknown")
+            combined_boss = translate_boss(fallback_name)
 
         item = {
             "id": timestamp,
