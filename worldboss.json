@@ -82,18 +82,18 @@
   {
     "id": 1786060800,
     "timestamp": 1786060800,
-    "boss": "Avarice",
+    "boss": "Ashava & Avarice",
     "type": "world_boss",
     "startTime": "2026-08-07T00:00:00.000Z",
     "zone": [
       {
         "id": "kehjistan",
         "name": "Kehjistan",
-        "boss": "Avarice"
+        "boss": "Ashava"
       },
       {
-        "id": "skovos",
-        "name": "Skovos",
+        "id": "nahantu",
+        "name": "Nahantu",
         "boss": "Avarice"
       }
     ]
