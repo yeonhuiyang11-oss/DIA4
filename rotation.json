@@ -6,6 +6,16 @@
         "id": "kehjistan",
         "name": "Kehjistan",
         "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "boss": "Avarice",
+    "zones": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
       },
       {
         "id": "skovos",
@@ -18,9 +28,14 @@
     "boss": "Ashava",
     "zones": [
       {
-        "id": "scosglen",
-        "name": "Scosglen",
+        "id": "kehjistan",
+        "name": "Kehjistan",
         "boss": "Ashava"
+      },
+      {
+        "id": "nahantu",
+        "name": "Nahantu",
+        "boss": "Avarice"
       }
     ]
   },
@@ -28,8 +43,8 @@
     "boss": "Ashava",
     "zones": [
       {
-        "id": "kehjistan",
-        "name": "Kehjistan",
+        "id": "scosglen",
+        "name": "Scosglen",
         "boss": "Ashava"
       }
     ]
@@ -76,31 +91,6 @@
         "id": "scosglen",
         "name": "Scosglen",
         "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "boss": "Avarice",
-    "zones": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "boss": "Avarice",
-    "zones": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
       }
     ]
   }
