@@ -1,19 +1,5 @@
 [
   {
-    "id": 1786010400,
-    "timestamp": 1786010400,
-    "boss": "Avarice",
-    "type": "world_boss",
-    "startTime": "2026-08-06T10:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
     "id": 1786023000,
     "timestamp": 1786023000,
     "boss": "Avarice",
@@ -123,6 +109,20 @@
         "id": "scosglen",
         "name": "Scosglen",
         "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1786111200,
+    "timestamp": 1786111200,
+    "boss": "Avarice",
+    "type": "world_boss",
+    "startTime": "2026-08-07T14:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
       }
     ]
   }
