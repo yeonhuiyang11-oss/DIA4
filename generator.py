@@ -70,7 +70,7 @@ def generate_schedule():
                     boss_names_kr.append(b_name_kr)
 
         if len(boss_names_kr) > 1:
-            combined_boss = " & ".join(boss_names_kr)
+            combined_boss = ",".join(boss_names_kr)
         elif len(boss_names_kr) == 1:
             combined_boss = boss_names_kr[0]
         else:
