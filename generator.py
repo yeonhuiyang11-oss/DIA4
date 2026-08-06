@@ -12,13 +12,20 @@ def generate_schedule():
     # 현재 UTC 시간
     now_utc = datetime.now(timezone.utc)
     
-    # 기준점부터 현재까지 몇 번의 주기가 지났는지 계산
+    # 기준점부터 현재까지의 주기 계산 (올림 또는 정확한 배수 계산을 위해 수정)
     interval = timedelta(hours=3, minutes=30)
-    time_diff = now_utc - base_time
-    periods_passed = int(time_diff / interval)
     
-    # 현재 진행 중이거나 다가오는 보스 스케줄부터 시작하도록 current_time과 시작 인덱스 조정
-    current_time = base_time + (periods_passed * interval)
+    current_time = base_time
+    # 현재 시간보다 미래이거나 바로 직전의 스케줄 시작점을 정확히 찾기
+    while current_time + interval <= now_utc:
+        current_time += interval
+        
+    # 만약 current_time이 이미 현재 시간보다 과거라면 다음 주기로 맞춤
+    if current_time <= now_utc:
+        current_time += interval
+
+    time_diff = current_time - base_time
+    periods_passed = int(time_diff / interval)
     start_index = periods_passed % len(rotation)
     
     schedule_list = []
