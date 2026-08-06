@@ -1,99 +1,5 @@
 [
   {
-    "id": 1785922200,
-    "timestamp": 1785922200,
-    "boss": "Avarice",
-    "type": "world_boss",
-    "startTime": "2026-08-05T09:30:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1785934800,
-    "timestamp": 1785934800,
-    "boss": "Avarice",
-    "type": "world_boss",
-    "startTime": "2026-08-05T13:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1785947400,
-    "timestamp": 1785947400,
-    "boss": "Avarice",
-    "type": "world_boss",
-    "startTime": "2026-08-05T16:30:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1785960000,
-    "timestamp": 1785960000,
-    "boss": "Ashava",
-    "type": "world_boss",
-    "startTime": "2026-08-05T20:00:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Ashava"
-      }
-    ]
-  },
-  {
-    "id": 1785972600,
-    "timestamp": 1785972600,
-    "boss": "Ashava",
-    "type": "world_boss",
-    "startTime": "2026-08-05T23:30:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Ashava"
-      }
-    ]
-  },
-  {
-    "id": 1785985200,
-    "timestamp": 1785985200,
-    "boss": "Azmodan",
-    "type": "world_boss",
-    "startTime": "2026-08-06T03:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Azmodan"
-      }
-    ]
-  },
-  {
     "id": 1785997800,
     "timestamp": 1785997800,
     "boss": "Azmodan & Avarice",
@@ -109,6 +15,100 @@
         "id": "nahantu",
         "name": "Nahantu",
         "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786010400,
+    "timestamp": 1786010400,
+    "boss": "Wandering Death",
+    "type": "world_boss",
+    "startTime": "2026-08-06T10:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1786023000,
+    "timestamp": 1786023000,
+    "boss": "Wandering Death",
+    "type": "world_boss",
+    "startTime": "2026-08-06T13:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1786035600,
+    "timestamp": 1786035600,
+    "boss": "Avarice",
+    "type": "world_boss",
+    "startTime": "2026-08-06T17:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786048200,
+    "timestamp": 1786048200,
+    "boss": "Avarice",
+    "type": "world_boss",
+    "startTime": "2026-08-06T20:30:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786060800,
+    "timestamp": 1786060800,
+    "boss": "Avarice",
+    "type": "world_boss",
+    "startTime": "2026-08-07T00:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786073400,
+    "timestamp": 1786073400,
+    "boss": "Ashava",
+    "type": "world_boss",
+    "startTime": "2026-08-07T03:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Ashava"
       }
     ]
   }
