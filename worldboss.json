@@ -1,94 +1,5 @@
 [
   {
-    "id": 1786350600,
-    "timestamp": 1786350600,
-    "boss": "아샤바",
-    "type": "world_boss",
-    "startTime": "2026-08-10T08:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Ashava"
-      }
-    ]
-  },
-  {
-    "id": 1786363200,
-    "timestamp": 1786363200,
-    "boss": "아즈모단",
-    "type": "world_boss",
-    "startTime": "2026-08-10T12:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Azmodan"
-      }
-    ]
-  },
-  {
-    "id": 1786375800,
-    "timestamp": 1786375800,
-    "boss": "아즈모단,아바리스",
-    "type": "world_boss",
-    "startTime": "2026-08-10T15:30:00.000Z",
-    "zone": [
-      {
-        "id": "dry_steppes",
-        "name": "Dry Steppes",
-        "boss": "Azmodan"
-      },
-      {
-        "id": "nahantu",
-        "name": "Nahantu",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1786388400,
-    "timestamp": 1786388400,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-08-10T19:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1786401000,
-    "timestamp": 1786401000,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-08-10T22:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1786413600,
-    "timestamp": 1786413600,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-08-11T02:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
     "id": 1786426200,
     "timestamp": 1786426200,
     "boss": "아바리스",
@@ -122,6 +33,95 @@
       {
         "id": "nahantu",
         "name": "Nahantu",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786451400,
+    "timestamp": 1786451400,
+    "boss": "아샤바",
+    "type": "world_boss",
+    "startTime": "2026-08-11T12:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Ashava"
+      }
+    ]
+  },
+  {
+    "id": 1786464000,
+    "timestamp": 1786464000,
+    "boss": "아즈모단",
+    "type": "world_boss",
+    "startTime": "2026-08-11T16:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Azmodan"
+      }
+    ]
+  },
+  {
+    "id": 1786476600,
+    "timestamp": 1786476600,
+    "boss": "아즈모단,아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-11T19:30:00.000Z",
+    "zone": [
+      {
+        "id": "dry_steppes",
+        "name": "Dry Steppes",
+        "boss": "Azmodan"
+      },
+      {
+        "id": "nahantu",
+        "name": "Nahantu",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786489200,
+    "timestamp": 1786489200,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-08-11T23:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1786501800,
+    "timestamp": 1786501800,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-08-12T02:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1786514400,
+    "timestamp": 1786514400,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-12T06:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
         "boss": "Avarice"
       }
     ]
