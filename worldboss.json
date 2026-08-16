@@ -1,99 +1,5 @@
 [
   {
-    "id": 1786766400,
-    "timestamp": 1786766400,
-    "boss": "아즈모단",
-    "type": "world_boss",
-    "startTime": "2026-08-15T04:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Azmodan"
-      }
-    ]
-  },
-  {
-    "id": 1786779000,
-    "timestamp": 1786779000,
-    "boss": "아즈모단,아바리스",
-    "type": "world_boss",
-    "startTime": "2026-08-15T07:30:00.000Z",
-    "zone": [
-      {
-        "id": "dry_steppes",
-        "name": "Dry Steppes",
-        "boss": "Azmodan"
-      },
-      {
-        "id": "nahantu",
-        "name": "Nahantu",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1786791600,
-    "timestamp": 1786791600,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-08-15T11:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1786804200,
-    "timestamp": 1786804200,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-08-15T14:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1786816800,
-    "timestamp": 1786816800,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-08-15T18:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1786829400,
-    "timestamp": 1786829400,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-08-15T21:30:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
     "id": 1786842000,
     "timestamp": 1786842000,
     "boss": "아샤바,아바리스",
@@ -123,6 +29,100 @@
         "id": "scosglen",
         "name": "Scosglen",
         "boss": "Ashava"
+      }
+    ]
+  },
+  {
+    "id": 1786867200,
+    "timestamp": 1786867200,
+    "boss": "아즈모단",
+    "type": "world_boss",
+    "startTime": "2026-08-16T08:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Azmodan"
+      }
+    ]
+  },
+  {
+    "id": 1786879800,
+    "timestamp": 1786879800,
+    "boss": "아즈모단,아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-16T11:30:00.000Z",
+    "zone": [
+      {
+        "id": "dry_steppes",
+        "name": "Dry Steppes",
+        "boss": "Azmodan"
+      },
+      {
+        "id": "nahantu",
+        "name": "Nahantu",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786892400,
+    "timestamp": 1786892400,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-08-16T15:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1786905000,
+    "timestamp": 1786905000,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-08-16T18:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1786917600,
+    "timestamp": 1786917600,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-16T22:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1786930200,
+    "timestamp": 1786930200,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-17T01:30:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
+        "boss": "Avarice"
       }
     ]
   }
