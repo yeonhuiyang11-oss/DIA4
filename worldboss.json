@@ -1,10 +1,24 @@
 [
   {
-    "id": 1787623200,
-    "timestamp": 1787623200,
+    "id": 1787711400,
+    "timestamp": 1787711400,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-08-26T02:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1787724000,
+    "timestamp": 1787724000,
     "boss": "아바리스",
     "type": "world_boss",
-    "startTime": "2026-08-25T02:00:00.000Z",
+    "startTime": "2026-08-26T06:00:00.000Z",
     "zone": [
       {
         "id": "kehjistan",
@@ -14,11 +28,11 @@
     ]
   },
   {
-    "id": 1787635800,
-    "timestamp": 1787635800,
+    "id": 1787736600,
+    "timestamp": 1787736600,
     "boss": "아바리스",
     "type": "world_boss",
-    "startTime": "2026-08-25T05:30:00.000Z",
+    "startTime": "2026-08-26T09:30:00.000Z",
     "zone": [
       {
         "id": "fractured_peaks",
@@ -33,11 +47,11 @@
     ]
   },
   {
-    "id": 1787648400,
-    "timestamp": 1787648400,
+    "id": 1787749200,
+    "timestamp": 1787749200,
     "boss": "아샤바,아바리스",
     "type": "world_boss",
-    "startTime": "2026-08-25T09:00:00.000Z",
+    "startTime": "2026-08-26T13:00:00.000Z",
     "zone": [
       {
         "id": "kehjistan",
@@ -52,11 +66,11 @@
     ]
   },
   {
-    "id": 1787661000,
-    "timestamp": 1787661000,
+    "id": 1787761800,
+    "timestamp": 1787761800,
     "boss": "아샤바",
     "type": "world_boss",
-    "startTime": "2026-08-25T12:30:00.000Z",
+    "startTime": "2026-08-26T16:30:00.000Z",
     "zone": [
       {
         "id": "scosglen",
@@ -66,11 +80,11 @@
     ]
   },
   {
-    "id": 1787673600,
-    "timestamp": 1787673600,
+    "id": 1787774400,
+    "timestamp": 1787774400,
     "boss": "아즈모단",
     "type": "world_boss",
-    "startTime": "2026-08-25T16:00:00.000Z",
+    "startTime": "2026-08-26T20:00:00.000Z",
     "zone": [
       {
         "id": "fractured_peaks",
@@ -80,11 +94,11 @@
     ]
   },
   {
-    "id": 1787686200,
-    "timestamp": 1787686200,
+    "id": 1787787000,
+    "timestamp": 1787787000,
     "boss": "아즈모단,아바리스",
     "type": "world_boss",
-    "startTime": "2026-08-25T19:30:00.000Z",
+    "startTime": "2026-08-26T23:30:00.000Z",
     "zone": [
       {
         "id": "dry_steppes",
@@ -99,29 +113,15 @@
     ]
   },
   {
-    "id": 1787698800,
-    "timestamp": 1787698800,
+    "id": 1787799600,
+    "timestamp": 1787799600,
     "boss": "떠도는 죽음",
     "type": "world_boss",
-    "startTime": "2026-08-25T23:00:00.000Z",
+    "startTime": "2026-08-27T03:00:00.000Z",
     "zone": [
       {
         "id": "fractured_peaks",
         "name": "Fractured Peaks",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1787711400,
-    "timestamp": 1787711400,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-08-26T02:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
         "boss": "Wandering Death"
       }
     ]
