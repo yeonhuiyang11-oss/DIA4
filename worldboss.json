@@ -1,99 +1,5 @@
 [
   {
-    "id": 1787913000,
-    "timestamp": 1787913000,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-08-28T10:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1787925600,
-    "timestamp": 1787925600,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-08-28T14:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1787938200,
-    "timestamp": 1787938200,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-08-28T17:30:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1787950800,
-    "timestamp": 1787950800,
-    "boss": "아샤바,아바리스",
-    "type": "world_boss",
-    "startTime": "2026-08-28T21:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Ashava"
-      },
-      {
-        "id": "nahantu",
-        "name": "Nahantu",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1787963400,
-    "timestamp": 1787963400,
-    "boss": "아샤바",
-    "type": "world_boss",
-    "startTime": "2026-08-29T00:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Ashava"
-      }
-    ]
-  },
-  {
-    "id": 1787976000,
-    "timestamp": 1787976000,
-    "boss": "아즈모단",
-    "type": "world_boss",
-    "startTime": "2026-08-29T04:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Azmodan"
-      }
-    ]
-  },
-  {
     "id": 1787988600,
     "timestamp": 1787988600,
     "boss": "아즈모단,아바리스",
@@ -123,6 +29,100 @@
         "id": "fractured_peaks",
         "name": "Fractured Peaks",
         "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1788013800,
+    "timestamp": 1788013800,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-08-29T14:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1788026400,
+    "timestamp": 1788026400,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-29T18:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1788039000,
+    "timestamp": 1788039000,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-29T21:30:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1788051600,
+    "timestamp": 1788051600,
+    "boss": "아샤바,아바리스",
+    "type": "world_boss",
+    "startTime": "2026-08-30T01:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Ashava"
+      },
+      {
+        "id": "nahantu",
+        "name": "Nahantu",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1788064200,
+    "timestamp": 1788064200,
+    "boss": "아샤바",
+    "type": "world_boss",
+    "startTime": "2026-08-30T04:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Ashava"
+      }
+    ]
+  },
+  {
+    "id": 1788076800,
+    "timestamp": 1788076800,
+    "boss": "아즈모단",
+    "type": "world_boss",
+    "startTime": "2026-08-30T08:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Azmodan"
       }
     ]
   }
