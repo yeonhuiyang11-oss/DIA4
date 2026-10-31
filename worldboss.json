@@ -1,99 +1,5 @@
 [
   {
-    "id": 1793343600,
-    "timestamp": 1793343600,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-10-30T07:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1793356200,
-    "timestamp": 1793356200,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-10-30T10:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1793368800,
-    "timestamp": 1793368800,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-10-30T14:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1793381400,
-    "timestamp": 1793381400,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-10-30T17:30:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1793394000,
-    "timestamp": 1793394000,
-    "boss": "아샤바,아바리스",
-    "type": "world_boss",
-    "startTime": "2026-10-30T21:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Ashava"
-      },
-      {
-        "id": "nahantu",
-        "name": "Nahantu",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1793406600,
-    "timestamp": 1793406600,
-    "boss": "아샤바",
-    "type": "world_boss",
-    "startTime": "2026-10-31T00:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Ashava"
-      }
-    ]
-  },
-  {
     "id": 1793419200,
     "timestamp": 1793419200,
     "boss": "아즈모단",
@@ -123,6 +29,100 @@
         "id": "nahantu",
         "name": "Nahantu",
         "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1793444400,
+    "timestamp": 1793444400,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-10-31T11:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1793457000,
+    "timestamp": 1793457000,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-10-31T14:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1793469600,
+    "timestamp": 1793469600,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-10-31T18:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1793482200,
+    "timestamp": 1793482200,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-10-31T21:30:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1793494800,
+    "timestamp": 1793494800,
+    "boss": "아샤바,아바리스",
+    "type": "world_boss",
+    "startTime": "2026-11-01T01:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Ashava"
+      },
+      {
+        "id": "nahantu",
+        "name": "Nahantu",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1793507400,
+    "timestamp": 1793507400,
+    "boss": "아샤바",
+    "type": "world_boss",
+    "startTime": "2026-11-01T04:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Ashava"
       }
     ]
   }
