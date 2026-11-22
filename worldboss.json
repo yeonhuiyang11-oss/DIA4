@@ -1,104 +1,5 @@
 [
   {
-    "id": 1795246200,
-    "timestamp": 1795246200,
-    "boss": "아즈모단,아바리스",
-    "type": "world_boss",
-    "startTime": "2026-11-21T07:30:00.000Z",
-    "zone": [
-      {
-        "id": "dry_steppes",
-        "name": "Dry Steppes",
-        "boss": "Azmodan"
-      },
-      {
-        "id": "nahantu",
-        "name": "Nahantu",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1795258800,
-    "timestamp": 1795258800,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-11-21T11:00:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1795271400,
-    "timestamp": 1795271400,
-    "boss": "떠도는 죽음",
-    "type": "world_boss",
-    "startTime": "2026-11-21T14:30:00.000Z",
-    "zone": [
-      {
-        "id": "scosglen",
-        "name": "Scosglen",
-        "boss": "Wandering Death"
-      }
-    ]
-  },
-  {
-    "id": 1795284000,
-    "timestamp": 1795284000,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-11-21T18:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1795296600,
-    "timestamp": 1795296600,
-    "boss": "아바리스",
-    "type": "world_boss",
-    "startTime": "2026-11-21T21:30:00.000Z",
-    "zone": [
-      {
-        "id": "fractured_peaks",
-        "name": "Fractured Peaks",
-        "boss": "Avarice"
-      },
-      {
-        "id": "skovos",
-        "name": "Skovos",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
-    "id": 1795309200,
-    "timestamp": 1795309200,
-    "boss": "아샤바,아바리스",
-    "type": "world_boss",
-    "startTime": "2026-11-22T01:00:00.000Z",
-    "zone": [
-      {
-        "id": "kehjistan",
-        "name": "Kehjistan",
-        "boss": "Ashava"
-      },
-      {
-        "id": "nahantu",
-        "name": "Nahantu",
-        "boss": "Avarice"
-      }
-    ]
-  },
-  {
     "id": 1795321800,
     "timestamp": 1795321800,
     "boss": "아샤바",
@@ -123,6 +24,105 @@
         "id": "fractured_peaks",
         "name": "Fractured Peaks",
         "boss": "Azmodan"
+      }
+    ]
+  },
+  {
+    "id": 1795347000,
+    "timestamp": 1795347000,
+    "boss": "아즈모단,아바리스",
+    "type": "world_boss",
+    "startTime": "2026-11-22T11:30:00.000Z",
+    "zone": [
+      {
+        "id": "dry_steppes",
+        "name": "Dry Steppes",
+        "boss": "Azmodan"
+      },
+      {
+        "id": "nahantu",
+        "name": "Nahantu",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1795359600,
+    "timestamp": 1795359600,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-11-22T15:00:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1795372200,
+    "timestamp": 1795372200,
+    "boss": "떠도는 죽음",
+    "type": "world_boss",
+    "startTime": "2026-11-22T18:30:00.000Z",
+    "zone": [
+      {
+        "id": "scosglen",
+        "name": "Scosglen",
+        "boss": "Wandering Death"
+      }
+    ]
+  },
+  {
+    "id": 1795384800,
+    "timestamp": 1795384800,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-11-22T22:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1795397400,
+    "timestamp": 1795397400,
+    "boss": "아바리스",
+    "type": "world_boss",
+    "startTime": "2026-11-23T01:30:00.000Z",
+    "zone": [
+      {
+        "id": "fractured_peaks",
+        "name": "Fractured Peaks",
+        "boss": "Avarice"
+      },
+      {
+        "id": "skovos",
+        "name": "Skovos",
+        "boss": "Avarice"
+      }
+    ]
+  },
+  {
+    "id": 1795410000,
+    "timestamp": 1795410000,
+    "boss": "아샤바,아바리스",
+    "type": "world_boss",
+    "startTime": "2026-11-23T05:00:00.000Z",
+    "zone": [
+      {
+        "id": "kehjistan",
+        "name": "Kehjistan",
+        "boss": "Ashava"
+      },
+      {
+        "id": "nahantu",
+        "name": "Nahantu",
+        "boss": "Avarice"
       }
     ]
   }
